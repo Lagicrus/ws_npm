@@ -211,11 +211,11 @@ QUnit.test(
     _.min = function (arr) {
       minCount++;
       return oldMin(arr);
-    }
+    };
     _.max = function (arr) {
       maxCount++;
       return oldMax(arr);
-    }
+    };
 
     equal(util.range([4, 3]), 1, "[4,3] has a range of 1");
     equal(minCount, 1, "use underscore.min in your range function");

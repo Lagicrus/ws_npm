@@ -2,3 +2,6 @@
 *.bak
 node_modules
 npm-debug.log
+*.xml
+*.iml
+worksheet/package-lock.json
